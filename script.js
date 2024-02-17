@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $("#outer-slider").owlCarousel({
+  $(".outer-slider").owlCarousel({
     dots:false,
       loop: true,
       nav: true,
@@ -9,10 +9,10 @@ $(document).ready(function () {
               items: 1
           },
           600: {
-              items: 3
+              items: 2
           },
           1000: {
-              items: 5
+              items: 3
           } // No comma here
       },  navText: ['<i class="bi bi-arrow-left-short  rounded-circle bg-gray fs_30 fw_500 bg-white"></i>', '<i class="bi bi-arrow-right-short fs_30 fw_500 rounded-circle bg-white"></i>']
   });
@@ -34,9 +34,12 @@ $(document).ready(function () {
             items:1
         },
         600:{
+            items:2
+        },
+        1200:{
             items:3
         },
-        1000:{
+        1400:{
             items:4
         }
     }
